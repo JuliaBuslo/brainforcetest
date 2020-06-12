@@ -1,0 +1,49 @@
+// promo section
+.promo {
+  padding-top: 66px;
+  height: 100vh;
+  background-image: url('../img/banner.png');
+  background-position: center;
+  background-size: cover;
+  .container {
+    padding-top: 150px;
+  }
+
+  &__title {
+      font-size: 70px;
+      line-height: 105px;
+      color: #060402;
+  }
+
+  &__text {
+    max-width: 583px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #929292;
+    span {
+      color: #ED1B24;
+    }
+  }
+
+  &__button {
+    width: 266px;
+    height: 60px;
+    background: linear-gradient(177.93deg, #A91D1C 6.92%, #ED1B24 93.08%);
+    border-radius: 100px;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 16px 0;
+    margin-top: 43px;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s ease;
+    &:hover {
+      box-shadow: 0 0 15px #ED1B24;
+      text-shadow: 0 0 10px #060402;
+    }
+  }
+}
+

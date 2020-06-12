@@ -1,0 +1,45 @@
+.message {
+background-image: url('../img/bg-block3.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+height: 726px;
+  &__header {
+    margin-bottom: 82px;
+  }
+
+  &__text {
+max-width: 680px;
+font-size: 24px;
+line-height: 36px;
+color: #060402;
+margin-bottom: 16px;
+span {
+  color: #ED1B24;
+}
+  }
+
+  &__link {
+font-size: 24px;
+line-height: 36px;
+color: #ED1B24;
+transition: all 0.5s ease 0s;
+&:hover {
+  text-shadow: 0 0 3px #060402;
+}
+  }
+
+  &__image {
+    position: absolute;
+    bottom: 20%;
+    right: 25%;
+  }
+  .title {
+    &::after {
+      width: 252px;
+      left: 0;
+      transform: none;
+    }
+  }
+}

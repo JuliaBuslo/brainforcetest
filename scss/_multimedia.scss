@@ -1,0 +1,45 @@
+.multimedia {
+  padding-top: 60px;
+  height: 755px;
+  .container {
+    background-image: url('../img/Subtract-block4.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: relative;
+    height: 100%;
+  }
+
+  &__text {
+    max-width: 740px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #060402;
+    > span {
+      display: block; 
+    }
+    span {
+      color: #ED1B24;
+    }
+  }
+ 
+
+  &__image {
+    position: absolute;
+    bottom: 24%;
+    right: 5%;
+  }
+  .title {
+    &::after {
+      width: 304px;
+      left: 0;
+      transform: none;
+    }
+  }
+  &__header {
+    margin-bottom: 82px;
+  }
+}
+
+.wr-header {
+}
+
